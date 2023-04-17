@@ -1,14 +1,14 @@
 <template>
     <div class="profil_box">
         <div class="profil_icon">
-            <img src="asset\icon\Account-Avatar.png" alt="" class="pp">
-            <img src="asset\icon\icon_coment.png" alt="" class="icon">
-            <img src="asset\icon\icon_inbox.png" alt="" class="icon">
-            <img src="asset\icon\icon_cast.png" alt="" class="icon">
+            <img src="@/public/asset\icon\account_avatar.png" alt="" class="pp">
+            <img src="@/public/asset\icon\icon_coment.png" alt="" class="icon">
+            <img src="@/public/asset\icon\icon_inbox.png" alt="" class="icon">
+            <img src="@/public/asset\icon\icon_cast.png" alt="" class="icon">
         </div>
         <div class="profil_create">
             <button class="secondary">
-                <img src="asset\icon\icon_diffusion.png" alt="">
+                <img src="@/public/asset\icon\icon_diffusion.png" alt="">
                 Créer
             </button>
         </div>

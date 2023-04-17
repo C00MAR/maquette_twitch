@@ -4,19 +4,19 @@
 <template>
     <div class="tapbar_box">
         <div class="tapbar_category active">
-            <img src="asset\icon\icon_like_active.png" alt="">
+            <img src="@/public/asset\icon\icon_like_active.png" alt="">
             <p>Suivis</p>
         </div>
         <div class="tapbar_category">
-            <img src="asset\icon\icon_decouvrir.png" alt="">
+            <img src="@/public/asset\icon\icon_decouvrir.png" alt="">
             <p>Découvrir</p>
         </div>
         <div class="tapbar_category">
-            <img src="asset\icon\icon_parcourir.png" alt="">
+            <img src="@/public/asset\icon\icon_parcourir.png" alt="">
             <p>Parcourir</p>
         </div>
         <div class="tapbar_category">
-            <img src="asset\icon\icon_loupe.png" alt="">
+            <img src="@/public/asset\icon\icon_loupe.png" alt="">
             <p>Rechercher</p>
         </div>
     </div>
