@@ -18,8 +18,7 @@
 <style lang="scss" scoped>
 .profil_box{
     width: 100vw;
-    height: 15vh;
-    position: absolute;
+    height: 10vh;
     top: 0;
     display: flex;
     flex-direction: row;

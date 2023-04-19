@@ -24,8 +24,9 @@
 
 <style lang="scss" scoped>
     .tapbar_box{
-        background-color: #0e0e10;
-        position: absolute;
+        border-top: 2px solid rgb(37, 37, 37);
+        background-color: var(--color-black);
+        position: sticky;
         bottom: 0;
         font-size: 17px;
         width: 100vw;

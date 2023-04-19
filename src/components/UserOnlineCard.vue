@@ -1,0 +1,37 @@
+<template>
+    <div class="card_online_user">
+        <div class="picture">
+            <img src="@/public/asset\picture/user_pp_ponce.png" alt="">
+            <div class="redDot"></div>
+        </div>
+        <p>Ponce</p>
+    </div>
+</template>
+
+<style lang="scss" scoped>
+    .card_online_user{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        .picture{
+            margin-bottom: -10px;
+            .redDot{
+            width: 15px;
+            height: 15px;
+            background-color: red;
+            border-radius: 50%;
+            position: relative;
+            top: -20px;
+            right: -43px;
+            border: 2px black solid;
+        }
+        }
+        
+        p{
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--color-white);
+        }
+    }
+</style>
