@@ -1,7 +1,7 @@
 <template>
     <div class="card_online_user">
         <div class="picture">
-            <img :src="`@/public/asset/db_temp/${imgurl.imgsrc}.png`" alt="">
+            <img :src="`asset/db_temp/${imgurl.imgsrc}.png`" alt="">
             <div class="redDot"></div>
         </div>
         <p>Ponce</p>
