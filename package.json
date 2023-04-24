@@ -10,6 +10,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "neo4j-driver": "^5.7.0",
     "sass": "^1.62.0",
     "vue": "^3.2.47"
   },

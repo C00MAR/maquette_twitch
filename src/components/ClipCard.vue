@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="detail_box">
-            <img src="@/public/asset\picture/user_pp_ponce.png" alt="">
+            <img src="@/public/asset/db_temp/db_pp_temp-0.png" alt="">
             <div>
                 <h1>Qui sera le Maître Des Fleurs ?</h1>
                 <p class="account">Ponce</p>

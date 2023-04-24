@@ -1,15 +1,6 @@
 <template>
     <div class="scroll_online_user">
-        <OnlineCard />
-        <OnlineCard />
-        <OnlineCard />
-        <OnlineCard />
-        <OnlineCard />
-        <OnlineCard />
-        <OnlineCard />
-        <OnlineCard />
-        <OnlineCard />
-        <OnlineCard />
+        <OnlineCard v-for="imgsrc in srcList" :imgurl='{ imgsrc }'/>
     </div>
 </template>
 
@@ -20,6 +11,11 @@ export default {
     name: "OnlineUser",
     components: {
         OnlineCard
+    },
+    data () {
+        return {
+            srcList: ["db_pp_temp-0","db_pp_temp-1","db_pp_temp-2","db_pp_temp-3","db_pp_temp-4","db_pp_temp-5","db_pp_temp-6","db_pp_temp-7","db_pp_temp-8"]
+        }
     }
 }
 </script>

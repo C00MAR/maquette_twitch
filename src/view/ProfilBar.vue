@@ -1,7 +1,7 @@
 <template>
     <div class="profil_box">
         <div class="profil_icon">
-            <img src="@/public/asset\icon\account_avatar.png" alt="" class="pp">
+            <img src="@/public/asset\picture/avatar_1.gif" alt="" class="pp">
             <img src="@/public/asset\icon\icon_coment.png" alt="" class="icon">
             <img src="@/public/asset\icon\icon_inbox.png" alt="" class="icon">
             <img src="@/public/asset\icon\icon_cast.png" alt="" class="icon">
@@ -30,8 +30,11 @@
         gap: 10px;
         align-items: center;
         .pp{
-            width: 40px;
-            height: 40px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            border: 3px solid var(--color-purple);
+            padding: 5px 5px;
         }
         .icon{
             width: 32px;
