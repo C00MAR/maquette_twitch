@@ -26,19 +26,18 @@ export default {
         position: relative;
         flex-direction: column;
         align-items: center;
-        height: fit-content;
         .picture{
             margin-bottom: -10px;
             .redDot{
-            width: 15px;
-            height: 15px;
-            background-color: red;
-            border-radius: 50%;
-            position: relative;
-            top: -20px;
-            right: -43px;
-            border: 2px black solid;
-        }
+                width: 15px;
+                height: 15px;
+                background-color: red;
+                border-radius: 50%;
+                position: relative;
+                top: -20px;
+                right: -43px;
+                border: 2px black solid;
+            }
         }
         
         p{

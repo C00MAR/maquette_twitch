@@ -23,12 +23,13 @@ export default {
 <style lang="scss" scoped>
 .scroll_online_user{
     width: 100vw;
-    height: 10vh;
+    height: 13vh;
     display: flex;
     flex-direction: row;
     gap: 25px;
     padding: 0 5vw;
     overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .scroll_online_user::-webkit-scrollbar {
