@@ -26,6 +26,7 @@ export default {
         position: relative;
         flex-direction: column;
         align-items: center;
+        height: fit-content;
         .picture{
             margin-bottom: -10px;
             .redDot{
